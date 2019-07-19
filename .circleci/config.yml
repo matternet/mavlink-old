@@ -1,7 +1,7 @@
 # Mavlink build and test configuration
 version: 2.1
 executors:
-  circler-ci-mavlink-executor:
+  circle-ci-mavlink-executor:
     docker:
       - image: 011301565624.dkr.ecr.us-east-1.amazonaws.com/matternet/mavnet-build-env:2.0
         aws_auth:
